@@ -9,6 +9,8 @@ import SpriteKit
 
 class GameScene: SKScene {
     
+    let map = TileMapManager.shared.getTileMap(fileNamed: "tilemap")
+    
     override func didMove(to view: SKView) {
         
     }
