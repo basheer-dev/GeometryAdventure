@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3253782B62A6430068DF2A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3253772B62A6430068DF2A /* Player.swift */; };
+		3A32537A2B62C4A20068DF2A /* tilemap2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3A3253792B62C4A20068DF2A /* tilemap2.csv */; };
 		3AECC4EE2B62414B001986B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC4ED2B62414B001986B4 /* AppDelegate.swift */; };
 		3AECC4F02B62414B001986B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AECC4EF2B62414B001986B4 /* GameScene.sks */; };
 		3AECC4F42B62414B001986B4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC4F32B62414B001986B4 /* GameScene.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3253772B62A6430068DF2A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3A3253792B62C4A20068DF2A /* tilemap2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tilemap2.csv; sourceTree = "<group>"; };
 		3AECC4EA2B62414B001986B4 /* GeometryAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AECC4ED2B62414B001986B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AECC4EF2B62414B001986B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -42,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3253762B62A6370068DF2A /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				3A3253772B62A6430068DF2A /* Player.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
 		3AECC4E12B62414B001986B4 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				3AECC5082B6241CB001986B4 /* tilemap.csv */,
+				3A3253792B62C4A20068DF2A /* tilemap2.csv */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -107,6 +120,7 @@
 		3AECC50A2B629CC8001986B4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3A3253762B62A6370068DF2A /* Characters */,
 				3AECC4EF2B62414B001986B4 /* GameScene.sks */,
 				3AECC4F32B62414B001986B4 /* GameScene.swift */,
 				3AECC4F52B62414B001986B4 /* GameViewController.swift */,
@@ -172,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A32537A2B62C4A20068DF2A /* tilemap2.csv in Resources */,
 				3AECC4F92B62414B001986B4 /* Main.storyboard in Resources */,
 				3AECC5092B6241CB001986B4 /* tilemap.csv in Resources */,
 				3AECC4F02B62414B001986B4 /* GameScene.sks in Resources */,
@@ -190,6 +205,7 @@
 				3AECC4F42B62414B001986B4 /* GameScene.swift in Sources */,
 				3AECC4F62B62414B001986B4 /* GameViewController.swift in Sources */,
 				3AECC50C2B629D56001986B4 /* TileMapManager.swift in Sources */,
+				3A3253782B62A6430068DF2A /* Player.swift in Sources */,
 				3AECC4EE2B62414B001986B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
